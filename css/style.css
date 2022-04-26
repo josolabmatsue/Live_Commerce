@@ -442,10 +442,12 @@ img {
   /*  メインビジュアル */
   .mv {
     height: 100vh;
+    
   }
 
   .mv-container {
     padding: 0 20px;
+    height:auto;
   }
 
   .mv-title {
