@@ -441,7 +441,7 @@ img {
 
   /*  メインビジュアル */
   .mv {
-    height: 100vh;
+    height: 750px;
   }
 
   .mv-container {
