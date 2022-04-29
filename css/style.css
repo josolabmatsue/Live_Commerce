@@ -399,7 +399,7 @@ img {
   margin: auto;
   text-align: center;
   font-size: 3em;
-  color: #ffffff;
+  color: #ffa07a;
   font-weight: 800;
   padding-top:5%;
 }
@@ -437,7 +437,6 @@ img {
 }
 
 .next::before{
-  top: 300px;
   left: 0px;
   width: 30px;
   height: 30px;
@@ -447,7 +446,6 @@ img {
   transform: rotate(45deg);
 }
 .back::before{
-  top: 300px;
   left: 0px;
   width: 30px;
   height: 30px;
