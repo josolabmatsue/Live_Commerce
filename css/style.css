@@ -398,8 +398,8 @@ img {
 .disc{
   margin: auto;
   text-align: center;
-  font-size: 3em;
-  color: #ffa07a;
+  font-size: 2em;
+  color: #ffe6e9;
   font-weight: 800;
   padding-top:5%;
 }
@@ -440,8 +440,8 @@ img {
   left: 0px;
   width: 30px;
   height: 30px;
-  border-top: 5px solid rgb(255, 255, 255);
-  border-right: 5px solid rgb(255, 255, 255);
+  border-top: 5px solid rgb(255, 240, 245);
+  border-right: 5px solid rgb(255, 240, 245);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -449,8 +449,8 @@ img {
   left: 0px;
   width: 30px;
   height: 30px;
-  border-bottom: 5px solid rgb(255, 255, 255);
-  border-left: 5px solid rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 240, 245);
+  border-left: 5px solid rgb(255, 240, 245);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -631,5 +631,22 @@ img {
     font-size: 14px;
     line-height: 1.7;
     margin-bottom: 20px;
+  }
+
+  /* スライド */
+
+  .slide-pic{
+    height: 250px;
+  }
+  .disc{
+    padding-top:5%;
+  }
+  /*>*/
+  .next{
+    top: 30px;
+  }
+  /*<*/
+  .back{
+    top: 30px;
   }
 }
