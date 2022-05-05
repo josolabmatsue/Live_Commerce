@@ -51,8 +51,10 @@ $(function(){
     window.onload = function(){
 
         //画像を配列に格納
-        var images =['url(img/top_tanbo.jpg)',
-                     'url(img/top_take.jpg)',]
+        var images =[
+                     'url(img/top_remake.jpg)',
+                     'url(img/top_ec_remake.jpg)',
+                    ]
 
         //要素をHTMLから取得
         //画像
@@ -72,7 +74,7 @@ $(function(){
 
         //>をクリックしたらcountを+1する
         function goNext(){
-            if(count == 2){
+            if(count == 3){
                 count = 0;
             }else{
                 count++;
@@ -83,7 +85,7 @@ $(function(){
         //<をクリックしたらcountを-1する
         function goBack(){
             if(count == 0){
-                count = 2;
+                count = 3;
             }else{
                 count--;
             }
