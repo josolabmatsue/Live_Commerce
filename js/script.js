@@ -74,7 +74,7 @@ $(function(){
 
         //>をクリックしたらcountを+1する
         function goNext(){
-            if(count == 3){
+            if(count == 2){
                 count = 0;
             }else{
                 count++;
@@ -85,7 +85,7 @@ $(function(){
         //<をクリックしたらcountを-1する
         function goBack(){
             if(count == 0){
-                count = 3;
+                count = 2;
             }else{
                 count--;
             }
