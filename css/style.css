@@ -597,11 +597,12 @@ img {
   }
 
   .mv-title {
-    font-size: 30px;
+    font-size: 20px;
   }
   .mv-subtitle {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
 
   .mv-text {
