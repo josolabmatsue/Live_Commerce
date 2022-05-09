@@ -739,9 +739,9 @@ img {
   }
 
   .flow-container{
-    margin: 10px 50px 20px 0;
+    margin: auto;
     display: block;
-    width: 100%;
+    width: 95%;
     height: 100%;
     background-color: #f5f5f5; /* 背景色 */
     border: 1px solid #ccc; /* 枠線 */
@@ -761,14 +761,15 @@ img {
   }
 
   .flow-title{
-    font-size: 8px;
+    font-size: 7px;
     font-weight: bold;
     border-bottom: 0.1px dashed red;
-    white-space: nowrap;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .flow-img{
@@ -781,7 +782,7 @@ img {
   .flow-img img{
     margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     border-bottom: 10px;
   }
 
