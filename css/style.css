@@ -464,7 +464,7 @@ img {
 
 /* flow */
 
-.title-detail {
+.title-kaigo-detail {
   text-align: center;
   margin: auto;
   width: 20%;
@@ -502,7 +502,7 @@ img {
 }
 
 .flow-title{
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   width: 15%;
   margin: 80px;
@@ -520,6 +520,26 @@ img {
   font-size: 16px;
   width: 70%;
   margin: 40px;
+}
+
+.title h2 {
+  font-size: 30px;
+}
+
+.title-detail{
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  height: 10%;
+  background-color: white; /* 背景色 */
+  border: 1px solid #C0C0C0; /* 枠線 */
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 3;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  letter-spacing: .05em;
+  color: #333;
 }
 
 /*media Queries 767
@@ -724,7 +744,7 @@ img {
 
   /* flow */
 
-  .title-detail {
+  .title-kaigo-detail {
     margin: 2em auto;
     padding: 1em;
     width: 40%;
@@ -796,5 +816,21 @@ img {
     width: auto;
     margin: 0px;
     text-align: center;
+  }
+
+  .title-detail{
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    height: 10%;
+    background-color: white; /* 背景色 */
+    border: 1px solid #C0C0C0; /* 枠線 */
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 3;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    letter-spacing: .05em;
+    color: #333;
   }
 }
