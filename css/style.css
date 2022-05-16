@@ -820,14 +820,15 @@ img {
 
   .title-detail{
     text-align: center;
-    margin: auto;
-    width: 20%;
+    margin: 2em auto;
+    padding: 1em;
+    width: 40%;
     height: 10%;
     background-color: white; /* 背景色 */
     border: 1px solid #C0C0C0; /* 枠線 */
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
-    line-height: 3;
+    line-height: 1;
     margin-top: 100px;
     margin-bottom: 60px;
     letter-spacing: .05em;
