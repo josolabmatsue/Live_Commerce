@@ -607,7 +607,7 @@ img {
 
   /*  メインビジュアル */
   .mv {
-    height: 400px;
+    height: 100vh;
     margin-bottom: 130px
   }
 
@@ -725,8 +725,19 @@ img {
     margin-bottom: 20px;
   }
 
-  /* スライド */
+  /*画像配置*/
+  .slideshow{
+    position: relative;
+    top: 80px;
+    max-width: 100%;
+    height: 100%;
+    background-image: url("../img/top_ec.png");/*JSで切り替える画像*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
 
+  /* スライド */
   .slide-pic{
     height: 250px;
   }
