@@ -557,6 +557,8 @@ img {
     display: block;
   }
 
+
+
   /* 見出し */
   .title {
     font-size: 26px;
@@ -608,7 +610,8 @@ img {
   /*  メインビジュアル */
   .mv {
     height: 100vh;
-    margin-bottom: 130px
+    margin-bottom: 130px;
+    margin-top: 100px;
   }
 
   .mv-container {
@@ -628,6 +631,7 @@ img {
   .mv-text {
     font-size: 14px;
     line-height: 1.7;
+    text-align: left;
   }
 
   .gnav-list {
@@ -644,6 +648,10 @@ img {
 
   .works-info {
     margin-top: 3px;
+  }
+
+  .works-img {
+    margin-top: 100px;
   }
 
   .works-list {
@@ -665,7 +673,7 @@ img {
 
   .skill-item {
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
   }
 
   .skill-item:last-child {
