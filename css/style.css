@@ -497,8 +497,8 @@ img {
   position: absolute;
   bottom: 10;
   left: 10;
-  border-top: 5vw solid navy;  /* 好みで高さ色を変えてください */
-  border-right: 4vw solid transparent;
+  border-top: 8vw solid navy;  /* 好みで高さ色を変えてください */
+  border-right: 8vw solid transparent;
 }
 
 .flow-title{
@@ -799,8 +799,8 @@ img {
     position: absolute;
     bottom: 10;
     left: 10;
-    border-top: 15vw solid navy;  /* 好みで高さ色を変えてください */
-    border-right: 10vw solid transparent;
+    border-top: 25vw solid navy;  /* 好みで高さ色を変えてください */
+    border-right: 25vw solid transparent;
   }
 
   .flow-title{
