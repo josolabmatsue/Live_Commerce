@@ -18,6 +18,13 @@ $(function () {
     });
 });
 
+$(function(){
+    $('#skill-item-movie a').on('click' , function(e){
+        e.preventDefault();//リンクの停止
+        $(this).parent().html('<iframe width="560" height="315" src="https://www.youtube.com/embed/JHkcjIRlQJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    });
+});
+
 //$(function(){
 //    var effect_pos = 3; // 画面下からどの位置でフェードさせるか(px)
 //    var effect_move = 10; // どのぐらい要素を動かすか(px)
